@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Rupi-Rupi Budaya</string>
+    <string name="tag_name">Serba-Serbi Budaya Bandung</string>
+
+    <string name="musik">Alat Musik</string>
+    <string name="seni">Seni Tradisional</string>
+    <string name="makanan">Makanan</string>
+    <string name="pakaian">Pakaian</string>
+    <string name="tema">Tema Bandung</string>
+</resources>

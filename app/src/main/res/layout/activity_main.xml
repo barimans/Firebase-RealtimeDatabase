@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.brizz.budayabandung.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarMain"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+
+        <TextView
+            style="@style/Menubar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/advent_pro"
+            android:text="@string/tag_name"
+            android:textStyle="bold" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorPrimaryDark"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/tv_alatMusik"
+                style="@style/ListTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_border_musik"
+                android:fontFamily="@font/sorts_mill_goudy"
+                android:text="@string/musik" />
+            <TextView
+                android:id="@+id/tv_seniTradisi"
+                style="@style/ListTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_border_seni"
+                android:fontFamily="@font/sorts_mill_goudy"
+                android:text="@string/seni" />
+
+            <TextView
+                android:id="@+id/tv_makanan"
+                style="@style/ListTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_border_makanan"
+                android:fontFamily="@font/sorts_mill_goudy"
+                android:text="@string/makanan" />
+            <TextView
+                android:id="@+id/tv_pakaian"
+                style="@style/ListTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_border_pakaian"
+                android:fontFamily="@font/sorts_mill_goudy"
+                android:text="@string/pakaian" />
+            <TextView
+                android:id="@+id/tv_tema"
+                style="@style/ListTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_border_tema"
+                android:fontFamily="@font/sorts_mill_goudy"
+                android:text="@string/tema" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

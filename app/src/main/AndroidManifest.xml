@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.brizz.budayabandung">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".KategoriActivity.AlatMusikActivity"
+            android:label="@string/musik" />
+        <activity android:name=".AddActivity.AddDataActivity" />
+        <activity
+            android:name=".KategoriActivity.SeniActivity"
+            android:label="@string/seni" />
+        <activity android:name=".DescriptionActivity.DescriptionActivity" />
+        <activity
+            android:name=".KategoriActivity.MakananActivity"
+            android:label="@string/makanan" />
+        <activity
+            android:name=".KategoriActivity.PakaianActivity"
+            android:label="@string/pakaian" />
+        <activity
+            android:name=".KategoriActivity.TemaActivity"
+            android:label="@string/tema" />
+        <activity android:name=".DescriptionActivity.ImageZoomActivity"></activity>
+    </application>
+
+</manifest>

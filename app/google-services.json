@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "554578175431",
+    "firebase_url": "https://budaya-bandung.firebaseio.com",
+    "project_id": "budaya-bandung",
+    "storage_bucket": "budaya-bandung.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554578175431:android:ad6b1be6297e6983",
+        "android_client_info": {
+          "package_name": "com.example.brizz.budayabandung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554578175431-8ao54nrf8f73u9r41a1d85j1le22uh84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.brizz.budayabandung",
+            "certificate_hash": "e9c0b333814fa6b88923957a2a5a9ead0aac0f7d"
+          }
+        },
+        {
+          "client_id": "554578175431-po6k9vf740a24nip9bv07lklnn61fs6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXhGrkFcNtN6yaWCKsEAlUT47EReN2NT4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "554578175431-po6k9vf740a24nip9bv07lklnn61fs6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
